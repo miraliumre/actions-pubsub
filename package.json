@@ -1,0 +1,20 @@
+{
+  "name": "actions-pubsub",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/MiraliumRe/actions-pubsub",
+  "author": "Rodrigo Laneth <rlaneth@miralium.re>",
+  "license": "Unlicense",
+  "private": false,
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0",
+    "eslint": "^8.20.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "@google-cloud/pubsub": "^3.1.0"
+  },
+  "scripts": {
+    "build": "ncc build src/main.js --license licenses.txt"
+  }
+}

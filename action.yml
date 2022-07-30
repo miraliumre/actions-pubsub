@@ -1,0 +1,22 @@
+name: 'Publish to Pub/Sub'
+description: 'Publish a message to a Google Cloud Pub/Sub topic'
+author: 'Rodrigo Laneth'
+
+inputs:
+  project_id:
+    description: 'The project ID registered with Google Cloud'
+    required: true
+  topic_name:
+    description: 'The name of the topic the message will be published to'
+    required: true
+  message:
+    description: 'The actual contents of the message to be published'
+    required: true
+  encoding:
+    description: 'The message string encoding'
+    required: true
+    default: 'utf-8'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
