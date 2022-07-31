@@ -15,7 +15,7 @@ inputs:
   encoding:
     description: 'The message string encoding'
     required: true
-    default: 'utf-8'
+    default: 'utf8'
 
 runs:
   using: 'node16'

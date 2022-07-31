@@ -42,12 +42,12 @@ jobs:
 
 ### Inputs
 
-| Name       | Required | Description                                            | Default   |
-| ---------- | -------- | ------------------------------------------------------ | --------- |
-| project_id | Yes      | The project ID registered with Google Cloud            | _None_    |
-| topic_name | Yes      | The name of the topic the message will be published to | _None_    |
-| message    | Yes      | The contents of the message to be published            | _None_    |
-| encoding   | No       | The message string encoding                            | `"utf-8"` |
+| Name       | Required | Description                                            | Default  |
+| ---------- | -------- | ------------------------------------------------------ | -------- |
+| project_id | Yes      | The project ID registered with Google Cloud            | _None_   |
+| topic_name | Yes      | The name of the topic the message will be published to | _None_   |
+| message    | Yes      | The contents of the message to be published            | _None_   |
+| encoding   | No       | The message string encoding                            | `"utf8"` |
 
 ## License
 
